@@ -29,8 +29,7 @@ I've made a script that simulates this by alternating between 10% and 90% packet
 I find it quite entertaining to play with the timing and errors. Browser error recovery is actually pretty good, I must say, but I guess that should not come as a suprise.
 
 <p align="center" width="100%">
-    <img width="70%" src="entertaining.png.png">
+    <img width="70%" src="entertaining.png">
 </p>
 
-Hope this helps,
-Kees Jan
+Hope this helps.
