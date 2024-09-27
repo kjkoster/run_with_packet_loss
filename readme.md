@@ -24,7 +24,14 @@ What I see in the real world is that the packet loss is bursty. It is good for a
     <img width="90%" src="trace-bursty.png">
 </p>
 
-I've made a script that simulates this by alternating between 10% and 90% packet loss. By editing the script, you can vary the loss percentages and durations. The code is available on GitHub. It includes a small client-server app that you can use to experiment with packet loss. Of cource, the idea is that you can copy 
+I've made a script that simulates this by alternating between 10% and 90% packet loss. By editing the script, you can vary the loss percentages and durations. This repo includes a small client-server app that you can use to experiment with packet loss. Of cource, the idea is that you can copy the relevant parts of this script into your own code for testing.
+
+After cloning the repository, you can build and run as follows and pointing a web browser at http://localhost:8000/.
+
+```shell
+$ docker build -t run_with_packet_loss .
+$ docker run -p 8000:8000 --cap-add NET_ADMIN -it run_with_packet_loss
+```
 
 I find it quite entertaining to play with the timing and errors. Browser error recovery is actually pretty good, I must say, but I guess that should not come as a suprise.
 
