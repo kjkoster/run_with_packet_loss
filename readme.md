@@ -1,8 +1,8 @@
 # Simulating Rwanda Network Conditions using Docker.
 
-Being in Rwanda helps me understand the local network situation better, and I thought it would be nice to share that. I am in Muhanga (Rwanda) by invitation of CPF Ineza, as a volunteer expert from PUM. I am here to perform a cybersecurity audit that will CPF Ineza take the next step.
+Travelling to Rwanda helps me understand the local network situation better, and I thought it would be nice to share that. I write this in Muhanga (Rwanda) as I do volunteer work here.
 
-The people in Rwanda are well aware of how networks work and the infrastructure is set up nicely. I see fibre, bean radio connection and literally on every street corner there is a tiny kiosk selling 4G data bundles. That said, it is hard to have an interruption-free video meeting. Running software here, such as the RAG chatbot I am working on, shows bugs that would never show up under stable network conditions.
+The people in Rwanda are well aware of how networks work and the infrastructure is set up nicely. I see fibre, bean radio connection and literally on every street corner there is a tiny kiosk selling 4G data bundles. That said, it is hard to have an interruption-free video meeting. Running software here, such as the [RAG chatbot](https://github.com/akvo/rag-doll) I am working on, shows bugs that would never show up under stable network conditions.
 
 Tracing some of the networks shows a lot of packet loss in general, sometimes as high as 10% over half an hour, with wild fluctuations. It all gives the impression of an infrastructure that is is handling more traffic than it was designed for. Most wireless access points I see are of the suspiciously cheap kind, so that does not help. They have also been placed based on the wiring available, with no regard to walls or other obstructions that hinder radio signals.
 
